@@ -1,1 +1,20 @@
 /* You can add global styles to this file, and also import other style files */
+
+$theme-colors: (
+  primary: #d87d4a,
+  secondary: #f1f1f1,
+  success: #101010,
+  info: #fafafa,
+  //   warning: $warning,
+  //   danger: $danger,
+  light: #ffffff,
+  dark: #000000,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap");
+
+body {
+  font-family: "Manrope", sans-serif;
+}

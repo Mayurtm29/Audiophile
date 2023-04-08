@@ -1,0 +1,27 @@
+.nav-wrapper {
+  padding: 35px;
+  position: relative;
+}
+.nav-wrapper::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 11%;
+  border-bottom: 1px solid var(--bs-light) !important;
+  width: 78%;
+  margin-inline: auto;
+  opacity: 0.2;
+}
+
+.nav-link {
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 700;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo {
+  width: 143px;
+  height: 25px;
+}
